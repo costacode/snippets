@@ -1,0 +1,45 @@
+{
+    "scripts": {
+      "preinstall": "npm i -g gulp-cli",
+      "start": "gulp watch",
+      "watch:js": "gulp watch:scripts --bundle",
+      "build": "gulp build",
+      "minify:images": "gulp minify:images"
+    },
+    "devDependencies": {
+      "babel-core": "^6.24.0",
+      "babel-loader": "^6.2.10",
+      "babel-preset-es2015": "^6.24.0",
+      "babel-preset-react": "^6.23.0",
+      "babel-preset-stage-0": "^6.22.0",
+      "css-loader": "^0.27.3",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "gulp": "latest",
+      "gulp-autoprefixer": "^3.1.1",
+      "gulp-imagemin": "^3.2.0",
+      "gulp-notify": "^3.0.0",
+      "gulp-postcss": "^7.0.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^3.1.0",
+      "gulp-sftp": "^0.1.5",
+      "gulp-sourcemaps": "^2.4.1",
+      "gulp-uglify": "^2.1.2",
+      "ismobilejs": "^0.4.1",
+      "monitorctrlc": "^2.0.1",
+      "node-sass": "^4.5.1",
+      "redux": "^3.6.0",
+      "redux-logger": "^2.8.1",
+      "redux-thunk": "^2.2.0",
+      "sass-loader": "^6.0.3",
+      "style-loader": "^0.16.0",
+      "vinyl-named-with-path": "^1.0.0",
+      "webpack": "^3.3.0",
+      "webpack-stream": "^4.0.0",
+      "webpack2-stream-watch": "^3.2.2"
+    },
+    "dependencies": {
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-redux": "^5.0.2"
+    }
+  }

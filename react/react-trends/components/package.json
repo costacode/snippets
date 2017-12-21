@@ -1,0 +1,20 @@
+{
+    "name": "components",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-scripts": "1.0.17"
+    },
+    "scripts": {
+        "generate-version": "genversion src/version.js",
+        "start": "npm run generate-version && react-scripts start",
+        "build": "npm run generate-version && react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+        "genversion": "^1.1.3"
+    }
+}
